@@ -1,0 +1,22 @@
+.fridge {
+    display:flex ;
+    justify-content: center;
+}
+.img div {
+    width: 9em;
+    height: 9em;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    display: flex;
+    flex-wrap: wrap;
+}
+span {
+    font-weight: 700;
+}

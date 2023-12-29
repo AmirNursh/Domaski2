@@ -1,0 +1,25 @@
+ul {
+    list-style: none;
+}
+div {
+    background-color: aqua;
+}
+.paybills {
+    background-color: rgb(161, 161, 161);
+    text-decoration: line-through;
+}
+.readbook {
+    background-color: rgb(161, 161, 161);
+    text-decoration: line-through;
+}
+.writeletters {
+    background-color: rgb(161, 161, 161);
+    text-decoration: line-through;
+}
+.List {
+    background-color: aliceblue;
+}
+img {
+    height: 20px;
+    width: auto;
+}

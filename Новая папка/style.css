@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(0, 195, 255);
+}
+@keyframes mytestanim{
+    0%(
+        position: relative;
+        left:0px;
+    )
+    100%(
+        position: relative;
+        left: 700px;
+    )
+}
+.gorod img{
+    width: 1850px;
+    height: 950px;
+    animation: mytestanim 6s infinite;
+}

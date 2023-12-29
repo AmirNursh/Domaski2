@@ -1,0 +1,71 @@
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1 {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .5s;
+}
+.h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1 hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ff0000;
+}
+.price span {
+    color: grey;
+}
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+.price h1 {
+    margin: 0;
+}
+.opisanie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.opisanie span {
+    font-weight: 600;
+    margin: 3px;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.button1 {
+    width: 100px;
+    height: 20px;
+    background-color: #ff0000;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.card1:hover {
+    width: 230px;
+    height: 330px;
+    transition: .5s;
+}

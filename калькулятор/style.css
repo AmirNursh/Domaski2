@@ -1,0 +1,36 @@
+table,
+th,
+td {
+    border: solid 1px black;
+    border-radius: 5px;
+
+}
+
+td,
+th {
+    padding: 2px 4px;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 50px;
+}
+
+th:hover,
+tr:hover,
+td:hover {
+    background-color: rgb(124, 124, 124);
+}
+table {
+    background-color: blue;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+td {
+    width: 100px;
+    height: 100px;
+}
+input {
+    width: 455px;
+    height: 100px;
+}

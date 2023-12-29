@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.background {
+    min-height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background a {
+    background-color: aliceblue;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.background a span,
+.background a span::before,
+.background a span::after {
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 2px;
+    margin-top: -1px;
+    margin-left: -10px;
+    border-radius: 20px;
+}
+
+.background a span::before,
+.background a span::after {
+    content: '';
+    transition: .2s;
+}
+
+.background a span::before {
+    transform: translateY(-5px);
+}
+
+.background a span::after {
+    transform: translateY(5px);
+}
+
+.background .active span::before {
+    transform: rotate(-45deg);
+    /* transform-origin: left bottom; */
+    /* width: 10px; */
+}
+
+.background .active span::after {
+    transform: rotate(45deg);
+    /* transform-origin: left top; */
+    /* width: 10px; */
+}
+
+.background .active span {
+    height: 0;
+}
